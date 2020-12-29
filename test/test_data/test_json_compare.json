@@ -1,0 +1,257 @@
+[
+  {
+    "obj_1": {
+      "str": "str"
+    },
+    "obj_2": {
+      "str": "str"
+    },
+    "output": {
+      "str": true
+    }
+  },
+  {
+    "obj_1": {
+      "int": 1
+    },
+    "obj_2": {
+      "int": 1
+    },
+    "output": {
+      "int": true
+    }
+  },
+  {
+    "obj_1": {
+      "name": "Flynn Vang",
+      "email": "turpis.non@Nunc.edu",
+      "age": 69,
+      "company": "Twitter",
+      "join_date": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "job_title": "janitor",
+      "gender": "female",
+      "salary": 9632
+    },
+    "obj_2": {
+      "name": "Flynn Vang",
+      "email": "turpis.non@Nunc.edu",
+      "age": 69,
+      "company": "Twitter",
+      "join_date": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "job_title": "janitor",
+      "gender": "female",
+      "salary": 9632
+    },
+    "output": {
+      "name": true,
+      "email": true,
+      "age": true,
+      "company": true,
+      "join_date": true,
+      "job_title": true,
+      "gender": true,
+      "salary": true
+    }
+  },
+  {
+    "obj_1": {
+      "name": "Brennan Baxter",
+      "inner": {
+        "inner": {
+          "inner": 1
+        }
+      }
+    },
+    "obj_2": {
+      "name": "Brennan Baxter",
+      "inner": {
+        "inner": {
+          "inner": 1
+        }
+      }
+    },
+    "output": {
+      "name": true,
+      "inner": {
+        "inner": {
+          "inner": true
+        }
+      }
+    }
+  },
+  {
+    "obj_1": {
+      "float": 1.1
+    },
+    "obj_2": {
+      "float": 1.1
+    },
+    "output": {
+      "float": true
+    }
+  },
+  {
+    "obj_1": {
+      "float": 1.1
+    },
+    "obj_2": {
+      "float": 1.11
+    },
+    "output": {
+      "float": false
+    }
+  },
+  {
+    "obj_1": {
+      "float": 1.123456
+    },
+    "obj_2": {
+      "float": 1.123455
+    },
+    "output": {
+      "float": true
+    }
+  },
+  {
+    "obj_1": {
+      "dict_arr": [
+        {
+          "test0": "test0"
+        },
+        {
+          "test1": "test1"
+        }
+      ]
+    },
+    "obj_2": {
+      "dict_arr": [
+        {
+          "test0": "test0"
+        },
+        {
+          "test1": "test1"
+        }
+      ]
+    },
+    "output": {
+      "dict_arr": true
+    }
+  },
+  {
+    "obj_1": {
+      "dict_arr": [
+        {
+          "test0": "test0"
+        },
+        {
+          "test1": "test1"
+        }
+      ]
+    },
+    "obj_2": {
+      "dict_arr": [
+        {
+          "test0": "test00"
+        },
+        {
+          "test1": "test01"
+        }
+      ]
+    },
+    "output": {
+      "dict_arr": false
+    }
+  },
+  {
+    "obj_1": {
+      "name": "Brennan Baxter",
+      "inner": {
+        "inner": {
+          "inner": 1.1
+        }
+      }
+    },
+    "obj_2": {
+      "name": "Brennan Baxter",
+      "inner": {
+        "inner": {
+          "inner": 1.11
+        }
+      }
+    },
+    "output": {
+      "name": true,
+      "inner": {
+        "inner": {
+          "inner": false
+        }
+      }
+    }
+  },
+  {
+    "obj_1": {
+      "str": "str",
+      "uniq1": "str"
+    },
+    "obj_2": {
+      "str": "str",
+      "uniq2": "str"
+    },
+    "output": {
+      "str": true,
+      "uniq1": false,
+      "uniq2": false
+    }
+  },
+  {
+    "obj_1": {
+      "name": "Brennan Baxter",
+      "inner": {
+        "inner": {
+          "inner": 1
+        }
+      }
+    },
+    "obj_2": {
+      "name": "Brennan Baxter",
+      "inner": {
+        "inner": {
+          "inner": 1
+        },
+        "nested_uniq": "gg"
+      }
+    },
+    "output": {
+      "name": true,
+      "inner": {
+        "inner": {
+          "inner": true
+        },
+        "nested_uniq": false
+      }
+    }
+  },
+  {
+    "obj_1": {
+      "diff_key_type": "1"
+    },
+    "obj_2": {
+      "diff_key_type": 1
+    },
+    "output": {
+      "diff_key_type": false
+    }
+  }
+]
